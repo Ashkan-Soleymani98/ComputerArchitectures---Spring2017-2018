@@ -14,4 +14,4 @@ Assignments: <br />
     HW5: Cache Simulation Applying Different Cache Arch and Policies (Python) <br />
 
 Project: <br />
-	Java Virtual Machine (JVM) Emulator with GUI
+    Java Virtual Machine (JVM) Emulator with GUI
