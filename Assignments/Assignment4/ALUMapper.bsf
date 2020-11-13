@@ -1,0 +1,149 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 312 336)
+	(text "ALUMapper" (rect 5 0 89 16)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 302 41 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "OA" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "OA" (rect 21 27 39 43)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "OBsubA" (rect 0 0 56 16)(font "Arial" (font_size 8)))
+		(text "OBsubA" (rect 21 43 77 59)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "OB" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "OB" (rect 21 59 39 75)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "OBminusOne" (rect 0 0 94 16)(font "Arial" (font_size 8)))
+		(text "OBminusOne" (rect 21 75 115 91)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "OAbar" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "OAbar" (rect 21 91 68 107)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "OminusA" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "OminusA" (rect 21 107 87 123)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "OBbar" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "OBbar" (rect 21 123 68 139)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "OAandB" (rect 0 0 56 16)(font "Arial" (font_size 8)))
+		(text "OAandB" (rect 21 139 77 155)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "OAsumB" (rect 0 0 56 16)(font "Arial" (font_size 8)))
+		(text "OAsumB" (rect 21 155 77 171)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "OAorB" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "OAorB" (rect 21 171 68 187)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "OAsumBplusOne" (rect 0 0 122 16)(font "Arial" (font_size 8)))
+		(text "OAsumBplusOne" (rect 21 187 143 203)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "OZero" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "OZero" (rect 21 203 68 219)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "OAplusOne" (rect 0 0 84 16)(font "Arial" (font_size 8)))
+		(text "OAplusOne" (rect 21 219 105 235)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "OOne" (rect 0 0 37 16)(font "Arial" (font_size 8)))
+		(text "OOne" (rect 21 235 58 251)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "OBplusOne" (rect 0 0 84 16)(font "Arial" (font_size 8)))
+		(text "OBplusOne" (rect 21 251 105 267)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "OminusOne" (rect 0 0 84 16)(font "Arial" (font_size 8)))
+		(text "OminusOne" (rect 21 267 105 283)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272))
+	)
+	(port
+		(pt 296 32)
+		(output)
+		(text "control[5..0]" (rect 0 0 122 16)(font "Arial" (font_size 8)))
+		(text "control[5..0]" (rect 153 27 275 43)(font "Arial" (font_size 8)))
+		(line (pt 296 32)(pt 280 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 280 304))
+	)
+)
